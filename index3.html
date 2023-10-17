@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout redo</title>
+</head>
+<style>
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  header {
+    background: rgb(245, 138, 138);
+    height: 40px;
+    color: azure;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: large;
+    font-family: serif;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  li {
+    padding: 4px;
+  }
+
+  .btn {
+    padding: 2px 20px;
+    background: #000;
+    color: white;
+  }
+
+  aside {
+    background: white;
+    width: 10%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+  }
+  a {
+    padding: 8px;
+    text-transform: capitalize;
+  }
+
+  section {
+    background-color: #eea6a6;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  article {
+    background-color: #cfa9a9;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section {
+    text-shadow: 3px 2px #bbbab3;
+    font-size: 25px;
+    font-weight: 800;
+    width: 70%;
+  }
+
+  footer {
+    background-color: #101011;
+    color: #fff;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  h2, h3 {
+    width: 50%;
+    padding: 40px;
+    font-style: italic;
+    font-weight: 400;
+  }
+</style>
+<body>
+  <header>
+    <nav>
+      <h1>logo</h1>
+
+      <ul>
+        <li>fiverr pro</li>
+        <li>become a seller</li>
+        <li>sign in</li>
+      </ul>
+      <div>
+        <button class="btn">login</button>
+        <button class="btn">sign in</button>
+      </div>
+    </nav>
+  </header>
+  <aside>
+    <a>home</a>
+    <a>channel</a>
+    <a>about</a>
+    <a>rating</a>
+    <a>information</a>
+    <a>history</a>
+    <a>contact us</a>
+  </aside>
+  <section>
+    <p class="section">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, nihil eaque repudiandae totam explicabo praesentium harum, sed inventore, aspernatur provident assumenda tempora exercitationem nulla dolor expedita quibusdam officia ipsam dicta?
+    </p>
+  </section>
+  <article>
+    <p class="section">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis aliquid a quis culpa labore aspernatur, animi fuga temporibus quisquam iusto deleniti illum. Doloribus nihil vel possimus voluptate hic expedita aliquam.
+    </p>
+  </article>
+  <footer>
+    <h3>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus et ducimus qui, repellat vitae ullam laudantium nisi tenetur assumenda modi adipisci labore neque, repellendus fugiat? Corrupti maxime facere, molestias tempora qui cumque vero quia adipisci similique nisi recusandae quam quidem!
+    </h3>
+    <h2>
+      The number one destination for real time scores for Football, Cricket, Tennis, Basketball, Hockey and more. LiveScore.com is the go-to destination for latest football scores and news from around the world.T
+      © 1998-2023 LiveScore
+    </h2>
+  </footer>
+</body>
+</html>
